@@ -1,0 +1,120 @@
+.primary-text{
+  color:rgb(11, 206, 173)
+}
+.position{
+  font-family:"Montserrat",Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size:10px;
+  color: #db4437;
+  line-height:1.5em;
+  text-transform: uppercase;
+  margin:0;
+  padding:0;
+}
+
+.download-section{
+  margin: 30px 0 50px 0;
+}
+.download-text{
+  text-align: center;
+  justify-content:center;
+}
+
+/* HEADER */
+ .main-header{
+  margin-top:0;
+}
+
+
+/* FEATURES */
+#features h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:15px;
+}
+
+#features p{
+  color:#888;
+  margin:0;
+  margin-bottom:40px;
+}
+
+#features .fas,
+.fab{
+  font-size:60px;
+  color:#db4437;
+  margin-bottom:25px;
+}
+
+/* INFO */
+#info{
+  background:#333 url('../images/info-bg.jpg') no-repeat;
+  color:#fff;
+}
+
+#info h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#info ul{
+  list-style:none;
+  padding:0;
+}
+
+#info li{
+  line-height:2em;
+  font-size:20px;
+}
+
+/* COMPANY */
+#company{
+  background:#334a7d;
+  color:#fff;
+  padding:15px 0;
+  margin-top: 60px;
+}
+
+#company h4{
+  text-transform:uppercase;
+  margin-bottom:0;
+}
+
+/* FOOTER */
+#main-footer{
+  background:#2b3c63;
+  color:#fff;
+}
+
+.icons li{
+list-style: none;
+color:#fff;
+float: left;
+padding: 15px;
+}
+ /* .fab{
+  color:#fff;
+}  */
+
+/* PAGE */
+#page{
+  margin-bottom:20px;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media(max-width:800px){
+  #showcase h1{
+    font-size:30px;
+  }
+}
+
+@media(max-width:500px){
+  #showcase .showcase-content{
+    padding:40px 10px;
+  }
+}
